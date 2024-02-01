@@ -39,7 +39,7 @@ class _UtamaState extends State<Utama> {
                     child: ElevatedButton(
                         onPressed: () {},
                         child: Text(
-                          "Acara 4",
+                          "BELUM ADA TUGAS LAYOUTING!",
                           style: CustomText.TextArvoBold(
                               25, CustomColors.whiteColor),
                         )),

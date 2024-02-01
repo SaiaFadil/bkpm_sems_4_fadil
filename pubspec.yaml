@@ -25,13 +25,13 @@ flutter:
   fonts:
     - family: Arvo
       fonts:
-        - asset: assets/fonts/Arvo-Regular.ttf
-        - asset: assets/fonts/Arvo-Bold.ttf
-        - asset: assets/fonts/Arvo-BoldItalic.ttf
-        - asset: assets/fonts/Arvo-Italic.ttf
+        - asset: fonts/Arvo-Regular.ttf
+        - asset: fonts/Arvo-Bold.ttf
+        - asset: fonts/Arvo-BoldItalic.ttf
+        - asset: fonts/Arvo-Italic.ttf
           weight: 700
 
     - family: Chewy
       fonts:
-        - asset: assets/fonts/Chewy-Regular.ttf
+        - asset: fonts/Chewy-Regular.ttf
           weight: 700
