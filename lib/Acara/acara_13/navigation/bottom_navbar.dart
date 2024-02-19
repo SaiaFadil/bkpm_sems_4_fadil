@@ -8,6 +8,5 @@ class BottomNavCubit extends Cubit<int> {
 
   /// for navigation button on single page
   void getHome() => emit(0);
-  void getTasks() => emit(1);
-  void getApps() => emit(2);
+  void getProfil() => emit(1);
 }
