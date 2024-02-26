@@ -1,6 +1,9 @@
 import 'package:bkpm_fadil/Acara/acara_13/splashscreen.dart';
 import 'package:bkpm_fadil/Acara/acara_14/beranda_acara_14.dart';
 import 'package:bkpm_fadil/Acara/acara_15/acara_15_layout.dart';
+import 'package:bkpm_fadil/Acara/acara_17/homepage.dart';
+import 'package:bkpm_fadil/Acara/acara_16/belajarMaterialApp.dart';
+import 'package:bkpm_fadil/Acara/acara_18/screen..dart';
 import 'package:bkpm_fadil/CustomButton.dart';
 import 'package:flutter/material.dart';
 import 'package:bkpm_fadil/CustomColors.dart';
@@ -120,7 +123,92 @@ class _page_berandaState extends State<page_beranda> {
                                       ));
                                 },
                               ),
-                            ))
+                            )),
+                      
+                        Padding(
+                            padding: EdgeInsets.only(top: 20),
+                            child: Container(
+                              width: double.infinity,
+                              child: ElevatedButton(
+                                style: CustomButton.DefaultButton(
+                                    CustomColors.threerty),
+                                child: Text(
+                                  "Acara 16",
+                                  style: CustomText.TextArvoBold(
+                                      22, CustomColors.blackColor),
+                                ),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      PageRouteBuilder(
+                                        pageBuilder: (context, animation,
+                                                secondaryAnimation) =>
+                                              acara_16_layout(),
+                                        transitionsBuilder: (context, animation,
+                                            secondaryAnimation, child) {
+                                          return FadeTransition(
+                                              opacity: animation, child: child);
+                                        },
+                                      ));
+                                },
+                              ),
+                            )),
+                        Padding(
+                            padding: EdgeInsets.only(top: 20),
+                            child: Container(
+                              width: double.infinity,
+                              child: ElevatedButton(
+                                style: CustomButton.DefaultButton(
+                                    CustomColors.threerty),
+                                child: Text(
+                                  "Acara 17",
+                                  style: CustomText.TextArvoBold(
+                                      22, CustomColors.blackColor),
+                                ),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      PageRouteBuilder(
+                                        pageBuilder: (context, animation,
+                                                secondaryAnimation) =>
+                                              acara_17_layout(),
+                                        transitionsBuilder: (context, animation,
+                                            secondaryAnimation, child) {
+                                          return FadeTransition(
+                                              opacity: animation, child: child);
+                                        },
+                                      ));
+                                },
+                              ),
+                            )),
+                        Padding(
+                            padding: EdgeInsets.only(top: 20),
+                            child: Container(
+                              width: double.infinity,
+                              child: ElevatedButton(
+                                style: CustomButton.DefaultButton(
+                                    CustomColors.threerty),
+                                child: Text(
+                                  "Acara 18",
+                                  style: CustomText.TextArvoBold(
+                                      22, CustomColors.blackColor),
+                                ),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      PageRouteBuilder(
+                                        pageBuilder: (context, animation,
+                                                secondaryAnimation) =>
+                                              Acara_18_layout(),
+                                        transitionsBuilder: (context, animation,
+                                            secondaryAnimation, child) {
+                                          return FadeTransition(
+                                              opacity: animation, child: child);
+                                        },
+                                      ));
+                                },
+                              ),
+                            )),
                       ],
                     ))
               ],
