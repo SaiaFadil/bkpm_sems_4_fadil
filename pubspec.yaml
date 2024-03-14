@@ -28,42 +28,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/LogoSplashScreen.png
-    - assets/images/animlogin.png
-    - assets/images/animmulai.png
-    - assets/images/TextJudul.png
-    - assets/images/bgregister.png
-    - assets/images/animberhasil.png
-    - assets/images/tombolmulai.png
-    - assets/images/animlupasandi.png
-    - assets/images/animkodeotp.png
-    - assets/images/nav_home.png
-    - assets/images/nav_shop.png
-    - assets/images/nav_profile.png
-    - assets/images/nav_home_on.png
-    - assets/images/nav_shop_on.png
-    - assets/images/nav_profile_on.png
-    - assets/images/posterhome.png
-    - assets/images/logoapps.png
-    - assets/images/ic_cari.png
-    - assets/images/animaturulanglupa.png
-    - assets/images/fotoprofil.png
-    - assets/images/ic_selesai.png
-    - assets/images/ic_dikemas.png
-    - assets/images/ic_diambil.png
-    - assets/images/ic_proses.png
-    - assets/images/ic_message.png
-    - assets/images/Alpukat.png
-    - assets/images/Jeruk.png
-    - assets/images/Pisang.png
-    - assets/images/Wortel.png
-    - assets/images/Bayam.png
-    - assets/images/Cabai.png
-    - assets/images/default.png
-    - assets/images/fotosaya.jpg
-    - assets/images/ApelFuji.png
-    - assets/images/maps.png
-    - assets/images/icons8-google-480.svg
+    - assets/images/
+    - images/
 
   fonts:
     - family: Arvo
